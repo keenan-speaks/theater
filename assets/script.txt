@@ -1,0 +1,49 @@
+script
+
+[Opening: Greeting]
+
+"Hi everyone!
+Today, I’m going to walk you through my theater ticket reservation program written in C++."
+
+[Part 1: General Purpose]
+
+"The purpose of this program is to let users reserve seats in a 15-row, 30-seat theater.
+It shows which seats are available and tracks ticket sales as seats are reserved."
+
+[Part 2: How It Starts]
+
+"When the program starts, it sets up a seating chart where all seats are available.
+Each seat is represented by a # symbol. If a seat is taken, it changes to a * symbol."
+
+[Part 3: The Main Loop]
+
+"The user is asked if they want to reserve a seat.
+If they say yes, the program displays the current seating chart and asks them to choose a row and a seat."
+
+[Part 4: Input Validation]
+
+"The program checks if the user entered a valid row and seat number.
+If the input is wrong, it clears the error and asks again until the user picks a valid seat."
+
+[Part 5: Reserving a Seat]
+
+"Once a valid seat is chosen, the program checks if the seat is available.
+If it is, the seat is reserved and the user sees a success message.
+If it’s already taken, the user is told and can try again."
+
+[Part 6: Tracking Sales]
+
+"After each seat reservation, the program calculates and displays the total ticket sales so far.
+Each ticket costs $12.50."
+
+[Part 7: Ending the Program]
+
+"The user can keep reserving seats until they choose 'No'.
+When they’re done, the program thanks them, shows the final total sales,
+and prints the final seating chart one more time."
+
+[Closing: Wrap-Up]
+
+"This project helped me practice using arrays, loops, input validation, and basic data tracking in C++.
+Thanks for watching!"
+

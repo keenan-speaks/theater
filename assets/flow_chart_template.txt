@@ -1,0 +1,55 @@
+START
+ |
+ v
+Initialize seating chart (all seats available)
+ |
+ v
+Set ticket price ($12.50)
+ |
+ v
+Set choice = 'Y'
+ |
+ v
+WHILE (choice == 'Y' or 'y')
+ |
+ v
+  Display seating chart
+ |
+ v
+  Prompt user for row and seat
+ |
+ v
+  Validate row (1-15) and seat (1-30)
+  |
+  +--- [INVALID] ---> Display error message, clear input, re-prompt
+  |
+  +--- [VALID] --->
+            |
+            v
+        IF seat available
+            |
+            +--- [YES] ---> Reserve seat, Display "Seat reserved"
+            |
+            +--- [NO] ----> Display "Seat already taken"
+            |
+            v
+        Calculate and display current sales
+            |
+            v
+        Ask if user wants to reserve another seat (Y/N)
+            |
+            v
+        Read choice
+ |
+ v
+[Exit WHILE loop]
+ |
+ v
+Display "Thank You! Final Sales: $..."
+ |
+ v
+Display Final Seating Chart
+ |
+ v
+END
+
